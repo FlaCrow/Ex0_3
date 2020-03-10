@@ -16,7 +16,7 @@ int divic(int n, int a, int b)
 	while (i <= n)
 	{
 		i += b;
-		m++;
+		if(i % a != 0) m++;
 	}
 	return m;
 }
